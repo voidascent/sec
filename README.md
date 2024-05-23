@@ -3,7 +3,7 @@
 PowerCat
 
 ```bash
-https://raw.githubusercontent.com/voidascent/sec/main/powercat.ps1
+[https://raw.githubusercontent.com/voidascent/sec/main/powercat.ps1](https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1)
 ```
 
 ```powershell
