@@ -1,5 +1,10 @@
 # Cybersecurity Tools and Files
-# **PowerCat**
+# Dictionaries
+Web Directory Brute Force - Big.txt
+```
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/big.txt
+```
+# PowerCat
 ```
 https://raw.githubusercontent.com/voidascent/sec/main/powercat.ps1
 ```
