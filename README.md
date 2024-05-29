@@ -1,8 +1,16 @@
 # Cybersecurity Tools and Files
 # Dictionaries
-Web Directory Brute Force - Big.txt
+Web Directory Brute Force - Directory List 2.3 Small (87664 Lines)
+```
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-small.txt
+```
+Web Directory Brute Force - Big.txt (20476 Lines)
 ```
 https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/big.txt
+```
+Web Directory Brute Force - Common.txt (4727 Lines)
+```
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
 ```
 # PowerCat
 ```
